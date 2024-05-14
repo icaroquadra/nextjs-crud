@@ -1,4 +1,4 @@
-import { PostsLayout } from "@/components/posts-layout";
+import PostsLayout from "@/components/posts-layout";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
           Get started by editing{" "}
           <code className="font-bold">src/pages/index.js</code>
         </p>
-        <div className="mt-4">{renderPosts()}</div>
+        <PostsLayout />
       </div>
     </main>
   );

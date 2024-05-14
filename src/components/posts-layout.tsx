@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from "react";
 import { PostInterface } from "@/types/post-interface";
 import { fetchPosts } from "@/api/posts";
